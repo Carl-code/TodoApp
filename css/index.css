@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+}
+body {
+  font-family: monospace;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 450px;
+  height: 500px;
+  background-color: beige;
+  border-radius: 15px;
+}
+h1 {
+  color: blue;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+input {
+  padding: 5px 15px;
+  border: none;
+}
+#pendientes li {
+    list-style: none;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: coral;
+}
+button {
+  color: white;
+  padding: 5px 20px;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
